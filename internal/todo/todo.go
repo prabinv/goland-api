@@ -4,8 +4,8 @@ import (
 	"context"
 	"fmt"
 	"github.com/lithammer/fuzzysearch/fuzzy"
+	"github.com/prabinv/goland-api/internal/db"
 	"iter"
-	"my-first-api/internal/db"
 	"slices"
 	"strings"
 )

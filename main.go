@@ -3,10 +3,10 @@ package main
 import (
 	"fmt"
 	"github.com/caarlos0/env/v10"
+	"github.com/prabinv/goland-api/internal/db"
+	"github.com/prabinv/goland-api/internal/todo"
+	"github.com/prabinv/goland-api/internal/transport"
 	"log"
-	"my-first-api/internal/db"
-	"my-first-api/internal/todo"
-	"my-first-api/internal/transport"
 )
 
 type config struct {

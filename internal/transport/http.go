@@ -3,7 +3,7 @@ package transport
 import (
 	"encoding/json"
 	"fmt"
-	"my-first-api/internal/todo"
+	"github.com/prabinv/goland-api/internal/todo"
 	"net/http"
 	"strconv"
 )
